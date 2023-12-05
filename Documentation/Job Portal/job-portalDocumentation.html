@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no" />
+  <link href="assets/images/favicon.png" rel="icon" />
+  <title>Documentation | Job Portal</title>
+  <meta name="description" content="Your ThemeForest item Name and description" />
+  <meta name="author" content="harnishdesign.net" />
+
+  <!-- Stylesheet
+============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+  <!-- Highlight Syntax -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Document Wrapper   
+=============================== -->
+  <div id="main-wrapper">
+    <!-- Header
+  ============================ -->
+    <header id="header" class="sticky-top">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+        <div class="container-fluid">
+          <!-- Sidebar Toggler -->
+          <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button">
+            <span></span><span class="w-75"></span><span class="w-50"></span>
+          </button>
+
+          <!-- Logo -->
+          <a class="webadminsite-href logo ml-md-3" title="Job Portal" target="_blank"
+            style="text-decoration: none; cursor: pointer">Job Portal
+          </a>
+          <span class="text-2 ml-2">v1.0</span>
+          <!-- Logo End -->
+
+          <!-- Navbar Toggler -->
+          <!-- <button
+              class="navbar-toggler ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#header-nav"
+            >
+              <span></span><span></span><span></span>
+            </button> -->
+
+          <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav"></ul>
+          </div>
+          <ul class="social-icons social-icons-sm ml-lg-2 mr-2"></ul>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Content
+  ============================ -->
+    <div id="content" role="main">
+      <!-- Sidebar Navigation
+	============================ -->
+      <div class="idocs-navigation bg-light">
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link active" href="#Job_Portal_start">Getting Started</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link active" href="#Frontend">Frontend</a>
+                <ul class="nav flex-column">
+                  <li class="nav-item"><a class="nav-link" href="#Frontend_React">ReactJS</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Frontend_installation">Installation</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Frontend_structure">Frontend Structure</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link active" href="#Backend">Backend</a>
+                <ul class="nav flex-column">
+                  <li class="nav-item"><a class="nav-link" href="#Backend_Laravel">Laravel</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Backend_installation">Installation</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Backend_structure">Backend Structure</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#Pre_Requisite">Pre Requisite</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#Pre_Requisite_Frontend">Frontend</a>
+                <ul class="nav flex-column">
+                  <li class="nav-item"><a class="nav-link" href="#Pre_Requisite_NodeJS">Node JS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link active" href="#Pre_Requisite_Backend">Backend</a>
+                <ul class="nav flex-column">
+                  <li class="nav-item"><a class="nav-link" href="#Pre_Requisite_PHP">PHP</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Pre_Requisite_Composer">Composer</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Pre_Requisite_Laravel">Laravel</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Pre_Requisite_MySQL">MySQL</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Pre_Requisite_Configration">Configration</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="#Design_Customization">Design & Customization</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#CSS">CSS</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Color_Schemes">Color Schemes</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="#Customization">Customization</a></li> -->
+              <li class="nav-item"><a class="nav-link" href="#Logo_Settings">Logo Settings</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="#Layout">Layout</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#Layout_Header">Header</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Layout_Footer">Footer</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="#Content">Content</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#Content_JobList_Candidate">Job List for Candidate</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Content_JobList_Company">Job List for Company</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="#Backend_Routes">Backend</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#Routes">Routes</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Controller">Controller</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Source_Creadits">Source & Credits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Support">Support</a>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="#Changelog">Changelog</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#changelog1">v1.0</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Docs Content
+	============================ -->
+      <div class="idocs-content">
+        <div class="container">
+          <!-- Getting Started
+		      ============================ -->
+          <section id="Job_Portal_start">
+            <h1>Documentation</h1>
+            <h2>Job Portal</h2>
+            <p>Job portal is a website and is known as a bridge between an organization and job seekers. Job Portal serves jobseekers to find available job vacancies and Employers to identify eligible job seekers with the prospect of selecting the most qualified candidates.</p>
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong>Version:</strong> 1.0</li>
+                  <li><strong>Technologies:</strong> React Js, Laravel</li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li>
+                    <strong class="font-weight-700">Created:</strong> 29 June,
+                    2022
+                  </li>
+                  <li><strong>Updated:</strong> 10 November, 2022</li>
+                </ul>
+              </div>
+            </div>
+            <h4>Folder Hierarchy </h4>
+            <p>In JobPortal_11-Nov-22 Folder, we have 2 folders for Frontend and Backend code. Frontend folder contains all Frontend Code while Backend contains all Backend Code as well as SQL file.</p>
+            <!-- <img src="./assets/images/img/home.png" alt="Home page" width="100%" height="auto"
+              style="border:1px solid black" /> -->
+          </section>
+          <hr class="divider" />
+
+          <!-- Frontend
+		        ============================ -->
+
+          <section id="Frontend">
+            <h2>Frontend</h2>
+          </section>
+          <section id="Frontend_React">
+            <h3>React JS</h3>
+            <p>
+              React, sometimes referred to as a frontend JavaScript framework, is a JavaScript library created by
+              Facebook.
+            </p>
+            <p>
+              ReactJS is a declarative, efficient, and flexible library for building reusable UI components.
+            </p>
+            <p>
+              A ReactJS application is made up of multiple components, each component responsible for outputting a
+              small, reusable piece of HTML code.
+            </p>
+          </section>
+          <hr class="divider" />
+          <section id="Frontend_installation">
+            <h3>Installation</h3>
+            <p class="lead">Follow the steps below to setup your site template:</p>
+            <ol>
+              <li>Unzip the downloaded package and It Contains:</li>
+              <ul>
+                <li><code>fronend</code> - Contains all Frontend</li>
+              </ul>
+              <li>Follow steps here to <a href="#Pre_Requisite_Frontend" target="_self">install and configure</a>
+                technologies. If you
+                already
+                installed and configured then skip this step </li>
+              <li>To install dependencies of project</li>
+              <ul>
+                <li><code>fronend</code><br /><br />
+                  <pre class="mb-0"><code class="hljs properties"><span class="hljs-attr">cd</span> <span class="hljs-string">job-portal/frontend</span>
+<span class="hljs-attr">npm</span> <span class="hljs-string">i</span>
+<span class="hljs-attr">npm</span> <span class="hljs-string">start</span></code></pre>
+                </li>
+
+              </ul>
+              <li>You are good to go for customizing this web app now!</li>
+            </ol>
+          </section>
+          <hr class="divider" />
+          <section id="Frontend_structure">
+            <h3>Frontend Structure</h3>
+            <p>Dashboard follows a simple and easy to customize coding structure. Here is the files/folders structure
+              looks like:</p>
+            <ul>
+              <li><code>public</code> - Contains <strong>index.html</strong> and some static files</li>
+              <li><code>src</code> - Contains all files related to <strong>react app</strong>, or you can say
+                <strong>root directory</strong> of app
+                <ul>
+                  <li><code>assets</code> - Contains all static files and other assets of app</li>
+                  <li><code>Components</code> - Contains all <strong>main components/pages of candidate</strong></li>
+                  <li><code>Employee</code> - Contains all <strong>main components/pages of employee</strong></li>
+                  <li><code>Admin</code> - Contains all <strong>main components/pages of admin</strong></li>
+                  <li><code>Redux</code> - Contains all files related to <strong>redux</strong></li>
+                  <li><code><strong>axios-config.js</strong></code> - It is file which contains navigate to login in
+                    case of user credentials are require</li>
+                  <li><code><strong>index.js</strong></code> - It is main file which serves App.js to
+                    <strong>public/index.html</strong>
+                  </li>
+                </ul>
+              </li>
+              <li><code><strong>package.json</strong></code> - It is file contains all information of backend like
+                dependencies, versions, scripts, etc.</li>
+            </ul>
+            <p class="alert alert-info">If you need more information, please visit source</p>
+          </section>
+          <hr class="divider" />
+
+          <!-- Backend
+		        ============================ -->
+
+          <section id="Backend">
+            <h2>Backend</h2>
+          </section>
+          <section id="Backend_Laravel">
+            <h3>Laravel</h3>
+            <p>
+              <b>Laravel</b> is an open-source PHP framework that uses the MVC architecture..
+            <ul>
+              <li><b>Framework</b> - It is the collection of methods, classes, or files that the programmer uses, and
+                they can also extend its functionality by using their code.</li>
+              <li><b>Architecture</b> - It is the specific design pattern that the framework follows. Laravel is
+                following the MVC architecture.</li>
+            </ul>
+            </p>
+            <p><b>MVC</b> is divided into three letters shown below:
+            <ul>
+              <li><b>M</b> - 'M' stands for Model. A model is a class that deals with a database.</li>
+              <li><b>V</b> - 'V' stands for View. A view is a class that deals with an HTML.</li>
+              <li><b>C</b> - 'C' stands for Controller. A controller is the middle-man that deals with both model and
+                view.</li>
+            </ul>
+            </p>
+
+          </section>
+          <hr class="divider" />
+          <section id="Backend_installation">
+            <h3>Installation</h3>
+            <p class="lead">Follow the steps below to setup your site template:</p>
+            <ol>
+              <li>Unzip the downloaded package and It Contains:</li>
+              <ul>
+                <li><code>backend</code> - Contains all Backend</li>
+              </ul>
+              <li>Follow steps here to <a href="#Pre_Requisite_Backend" target="_blank">install and configure</a>
+                technologies. If you
+                already
+                installed and configured then skip this step </li>
+              <li>To install dependencies of project</li>
+              <ul>
+                <li><code>backend</code><br><br>
+                  <pre class="mb-0"><code class="hljs properties"><span class="hljs-attr">cd</span> <span class="hljs-string">job-portal/backend</span>
+<span class="hljs-attr">php artisan serve</span></code></pre>
+                </li>
+              </ul>
+              <li>You are good to go for customizing this web app now!</li>
+            </ol>
+          </section>
+          <hr class="divider" />
+          <section id="Backend_structure">
+            <h3>Backend Structure</h3>
+            <p>Dashboard follows a simple and easy to customize coding structure. Here is the files/folders structure
+              looks like:</p>
+            <ul>
+              <li><code>connections</code> - Contains all connections <strong>configration</strong> files</li>
+              <li><code>functions</code> - Contains all files related to <strong>basic/repeated/global</strong>
+                functions</li>
+              <li><code>models</code> - Contains all <strong>models/structure</strong> of database</li>
+              <li><code>routes</code> - Contains all <strong>different routes</strong> of backend and all connected in
+                main index.js</li>
+              <li><code>static</code> - Contains all static files or data for initialization for database</li>
+              <li><code><strong>index.js</strong></code> - It is main file which serves backend</li>
+              <li><code><strong>package.json</strong></code> - It is file contains all information of backend like
+                dependencies, versions, scripts, etc.</li>
+            </ul>
+            <p class="alert alert-info">If you need more information, please visit source</p>
+          </section>
+          <hr class="divider" />
+
+
+          <!-- Pre Requisite
+		        ============================ -->
+
+          <section id="Pre_Requisite">
+            <h2>Pre Requisite</h2>
+            <h4>These are Pre requisite installation and configration</h4>
+          </section>
+          <section id="Pre_Requisite_Frontend">
+            <h2>Frontend</h2>
+          </section>
+          <section id="Pre_Requisite_NodeJS">
+            <h3>Node JS</h3>
+            <h5>It has very easy step of installation</h5>
+            <h5>Various ways to install Node JS</h5>
+            <ul>
+              <li><b>It is highly prefelable if you install through <a target="_blank" class="nvm"
+                    href="https://github.com/nvm-sh/nvm">NVM</a> Manger</b>
+              </li>
+              <li>Visit <a target="_blank" class="node" href="https://nodejs.org/en">Node</a> Home Page, It will give
+                you show you node js which is
+                suitable fot your system.</li>
+              <li>If you want download different latest node js visit <a target="_blank" class="node-download"
+                  href="https://nodejs.org/en/download">Download</a> Page </li>
+              <li>If you want install directly through any package manager visit <a target="_blank" class="node-package"
+                  href="https://nodejs.org/en/download/package-manager">here</a></li>
+              <li>If you want install sepcific version visit <a target="_blank" class="node-releases"
+                  href="https://nodejs.org/en/download/releases">here</a></li>
+            </ul>
+            <h6>Highly Recommend install minimum <b>v14.x</b> node </h6>
+          </section>
+          <hr class="divider" />
+          <section id="Pre_Requisite_Backend">
+            <h2>Backend</h2>
+          </section>
+          <section id="Pre_Requisite_PHP">
+            <h3>PHP</h3>
+            <p>
+              PHP is an acronym for "PHP: Hypertext Preprocessor". PHP is an open-source, interpreted, and
+              object-oriented scripting language that can be executed at the server-side.
+            </p>
+            <P>
+              To install PHP, we will suggest you to install AMP (Apache, MySQL, PHP) software stack. It is available
+              for all operating systems. There are many AMP options available in the market that are given below:
+            <ul>
+              <li><b>WAMP</b> for Windows - visit <a href="https://www.wampserver.com/en/" target="_blank">here</a> for
+                downloading WAMP</li>
+              <li><b>LAMP</b> for Linux - visit <a href="http://csg.sph.umich.edu/abecasis/LAMP/download/"
+                  target="_blank">here</a> for downloading LAMP</li>
+              <li><b>MAMP</b> for Mac - visit <a href="https://www.mamp.info/en/downloads/" target="_blank">here</a> for
+                downloading MAMP</li>
+              <li><b>XAMPP (Cross, Apache, MySQL, PHP, Perl)</b> for Cross Platform: It includes some other components
+                too such
+                as FileZilla, OpenSSL, Webalizer, Mercury Mail, etc. - visit <a
+                  href="https://www.apachefriends.org/download.html" target="_blank">here</a> for downloading XAMPP</li>
+            </ul>
+            </P>
+          </section>
+          <hr class="divider" />
+          <section id="Pre_Requisite_Composer">
+            <h3>Composer</h3>
+            <p>Composer is a dependency manager for a PHP programming language that manages the dependencies of PHP
+              software and required libraries.</p>
+            <p>Composer runs through the command line. The main purpose of the composer is to install the dependencies
+              or libraries for an application. The composer also provides the users to install the PHP applications
+              available on the Packagist, where Packagist is the main repository that contains all the available
+              packages.
+            </p>
+            <p> Composer provides autoloading capabilities for libraries to ease the usage of third-party code.</p>
+            <h5>Visit <a href="https://getcomposer.org/download/" target="_blank"> here </a>for downloading Composer
+            </h5>
+          </section>
+          <hr class="divider" />
+          <section id="Pre_Requisite_Laravel">
+            <h3>Laravel</h3>
+            <p>Laravel is an open-source PHP framework that uses the MVC architecture.. It also offers the rich set of
+              functionalities that incorporates the basic features of PHP frameworks such as Codelgniter, Yii, and other
+              programming languages like Ruby on Rails.</p>
+            <h5>There are two way we can install Laravel</h5>
+            <ul>
+              <li>Via Laravel Installer</li>
+              <li>Via Composer Create-Project</li>
+            </ul>
+            <h5>Via Laravel Installer</h5>
+            <ul>
+              <li>download the Laravel installer using Composer:<br /><kbd>composer global require
+                  laravel/installer</kbd></li>
+              <li>Once installed, the <code>laravel new</code> command will create a fresh Laravel installation in the
+                directory you specify.</li>
+            </ul>
+            <h5>Via Composer Create-Project </h5>
+            <ul>
+              <li>Alternatively, you may also install Laravel by issuing the Composer <code>create-project</code>
+                command in your terminal:<br /><kbd>composer create-project --prefer-dist laravel/laravel:^7.0
+                  blog</kbd></li>
+            </ul>
+            <h5>Local Development Server</h5>
+            <p>This command will start a development server at <code>http://localhost:8000:</code></p>
+            <p><kbd>php artisan serve</kbd></p>
+          </section>
+          <hr class="divider" />
+          <section id="Pre_Requisite_MySQL">
+            <h3>MySQL</h3>
+            <p>MySQL is a relational database management system based on the Structured Query Language, which is the
+              popular language for accessing and managing the records in the database. MySQL is open-source and free
+              software under the GNU license. It is supported by <b>Oracle Company.</b></p>
+            <ul>
+              <li><a href="https://dev.mysql.com/downloads/installer/" target="_blank">Download</a> MySQL for your OS
+              </li>
+            </ul>
+          </section>
+          <hr class="divider" />
+          <section id="Pre_Requisite_Configration">
+            <h3>Configration</h3>
+            <p>Backend Configration required before running this web application</p>
+            <p class="lead">For connecting databse in API project, you have to define few variables in .env file:</p>
+            <p><a class="popup-img" href="./assets/images/img/database.png"><img class="img-fluid border"
+              src="./assets/images/img/database.png" alt=""></a></p>
+            <p>For running API, run the below command in your project
+              terminal.:</p>
+            <p><kbd>php artisan serve </kbd></p>
+          </section>
+          <hr class="divider" />
+
+          <!-- Design & Customization
+		        ============================ -->
+
+          <section id="Design_Customization">
+            <h2>Design & Customization</h2>
+            <h4>
+              <h4>These are Design &amp; Customization, Related to this Web Appication</h4>
+            </h4>
+          </section>
+          <section id="CSS">
+            <h2>CSS</h2>
+            <p>We have include a Custom CSS File in the <code>assets/css</code> Folder so that you can better handle
+              your
+              Customizations for New Styles or
+              Overwriting Default Theme Styles. Simply add all your Custom CSS Codes in the
+              <code>assets/css/main.css</code>
+              File and link it in the Document <code>&lt;head&gt;</code>. Also make sure that this is the Last Linked
+              CSS File in the Document <code>&lt;head&gt;</code> so
+              that your Custom CSS Styles are Overwritten properly.</p>
+
+          </section>
+          <hr class="divider" />
+          <section id="Color_Schemes">
+            <h2>Color Schemes</h2>
+            <ul>
+              <li><code>#2042e3</code> - Primary Color - Blue</li>
+              <li><code>#2042e31c</code> - Light Blue Color</li>
+              <li><code>#081828</code> - Text Color</li>
+            </ul>
+          </section>
+          <hr class="divider" />
+          <!-- <section id="Customization">
+              <h2>Customization</h2>
+            </section>
+            <hr class="divider" /> -->
+          <section id="Logo_Settings">
+            <h2>Logo Settings</h2>
+            <p>The Logo Container can be found in the Header Container - <code>&lt;header&gt;</code></p>   
+            <p><a class="popup-img" href="./assets/images/img/logo.png"><img class="img-fluid border"
+              src="./assets/images/img/logo.png" alt=""></a></p>         
+            <pre style="height: 70vh;">
+  <code id="layout-header" class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span></span><span class="hljs-tag"> <span class="hljs-attr">style</span>=<span class="hljs-string">{{ display: "flex", alignItems: "center"}}</span></span><span class="hljs-tag">&gt;
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span></span><span class="hljs-tag"> <span class="hljs-attr">style</span>=<span class="hljs-string">{{ <br>    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#2042e3",
+    borderTopLeftRadius: 8,
+    borderBottomLeftRadius: 8,
+    borderBottomRightRadius: 40,
+    borderTopRightRadius: 0,
+    width: 100,
+    height: 40
+  }}</span></span><span class="hljs-tag">&gt;
+    <span class="hljs-tag">&lt;<span class="hljs-name">h4</span></span><span class="hljs-tag"> <span class="hljs-attr">style</span>=<span class="hljs-string">{{ <br>      color: "#fff",
+      textAlign: "center",
+      marginTop: "8px"
+    }}</span></span><span class="hljs-tag">&gt;
+      {"Job"}
+    <span class="hljs-tag">&lt;<span class="hljs-name">/h4</span></span>&gt;
+  <span class="hljs-tag">&lt;<span class="hljs-name">/div</span></span>&gt;
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span></span><span class="hljs-tag"> <span class="hljs-attr">style</span>=<span class="hljs-string">{{ <br>    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#000",
+    borderTopLeftRadius: 40,
+    borderBottomLeftRadius: 0,
+    borderTopRightRadius: 8,
+    borderBottomRightRadius: 8,
+    width: 120,
+    height: 40
+  }}</span></span><span class="hljs-tag">&gt;
+    <span class="hljs-tag">&lt;<span class="hljs-name">h4</span></span><span class="hljs-tag"> <span class="hljs-attr">style</span>=<span class="hljs-string">{{ <br>      color: "#fff",
+      textAlign: "center",
+      marginTop: "10px"
+    }}</span></span><span class="hljs-tag">&gt;
+      {"Portal"}
+    <span class="hljs-tag">&lt;<span class="hljs-name">/h4</span></span>&gt;
+  <span class="hljs-tag">&lt;<span class="hljs-name">/div</span></span>&gt;
+<span class="hljs-tag">&lt;<span class="hljs-name">/div</span></span>&gt;
+  </code></pre>
+          </section>
+          <hr class="divider" />
+
+
+          <!-- Layout
+		        ============================ -->
+          <section id="Layout">
+            <h2>Layout</h2>
+            <h5>Documentation and examples for Header, Footer</h5>
+          </section>
+          <section id="Layout_Header">
+            <h2>Header</h2>
+            <p>The list of various header types &amp; its descriptions are provided below for your reference:</p>
+
+            <span class="text-info">See below images for more inforamtion.</span>
+            <p></p>
+            <h4>Desktop</h4>
+            <p><a class="popup-img" href="./assets/images/img/header1.png"><img class="img-fluid border"
+                  src="./assets/images/img/header1.png" alt=""></a></p>
+
+            <h4>Mobile</h4>
+            <p><a class="popup-img" href="./assets/images/img/header2.png"><img class="img-fluid border"
+                  src="./assets/images/img/header2.png" alt=""></a></p>
+          </section>
+          <hr class="divider" />
+          <section id="Layout_Footer">
+            <h2>Footer</h2>
+            <p>The list of various footer types &amp; its descriptions are provided below for your reference:</p>
+
+            <span class="text-info">See below images for more inforamtion.</span>
+            <p></p>
+            <h4>Desktop</h4>
+            <p><a class="popup-img" href="./assets/images/img/footer1.png"><img class="img-fluid border"
+                  src="./assets/images/img/footer1.png" alt=""></a></p>
+
+            <h4>Mobile</h4>
+            <p><a class="popup-img" href="./assets/images/img/footer2.png"><img class="img-fluid border"
+                  src="./assets/images/img/footer2.png" alt=""></a></p>
+          </section>
+          <hr class="divider" />
+
+
+          <!-- Content
+		        ============================ -->
+          <section id="Content">
+          </section>
+          <section id="Content_JobList_Candidate">
+            <h2>Candidate Job List</h2>
+            <h4>Desktop</h4>
+            <p><a class="popup-img" href="./assets/images/img/joblist1.png"><img class="img-fluid border"
+                  src="./assets/images/img/joblist1.png" alt=""></a></p>
+
+            <h4>Mobile</h4>
+            <p><a class="popup-img" href="./assets/images/img/joblist2.png"><img class="img-fluid border"
+                  src="./assets/images/img/joblist2.png" alt=""></a></p>
+          </section>
+          <hr class="divider" />
+          <section id="Content_JobList_Company">
+            <h2>Company Job List</h2>
+            <p><a class="popup-img" href="./assets/images/img/company_joblist.png"><img class="img-fluid border"
+                  src="./assets/images/img/company_joblist.png" alt=""></a></p>
+
+          </section>
+          <hr class="divider" />
+
+
+          <!-- Backend
+		        ============================ -->
+          <section id="Backend_Routes">
+            <h2>Backend</h2>
+            <p class="mb-5">This Backend uses Laravel to connect ReactJS and MySQL</p>
+          </section>
+          <section id="Routes">
+            <h2>Routes</h2>
+            <p>There are may routes in the project. This is Job routes:</p>
+            <pre>
+<code>Route::group(['prefix' => 'job', 'as' => 'job.'], function () {    
+  Route::post('', [JobController::class, 'addJob'])->name('add');
+  Route::get('', [JobController::class, 'getAllJobs'])->name('all');
+  Route::get('/{job_id}', [JobController::class, 'getJobDetails'])->name('details')->whereNumber('job_id');
+  Route::patch('/{job_id}', [JobController::class, 'editJob'])->name('edit-details')->whereNumber('job_id');
+})</code>   </pre>
+          </section>
+          <hr class="divider" />
+          <section id="Controller">
+            <h2>Controller</h2>
+            <p>Job controller:</p>
+            <pre>
+  <code style="height: 70vh;"> public function addJob(Request $request, Job $jobs)
+    {
+        auth()->shouldUse('api-employers');
+        if (!auth()->user()) {
+            $resObj = [
+                'status' => 'error',
+                'code' => Response::HTTP_UNAUTHORIZED,
+                'message' => 'Not authorized to access this resource',
+            ];
+            return response()->json($resObj, $resObj['code']);
+        }
+        $resObj = (new CommonController)->exceptionHandler(function ($request) {
+            $validator = Validator::make($request->all(), [
+                'company_id' => 'required|numeric',
+                'title' => 'required|string',
+                'type' => 'required|integer',
+                'category' => 'required|integer',
+                'skill' => 'array',
+                'gender' => 'in:0,1,2',
+                'expiry_date' => 'date',
+                'salary_from' => 'required|numeric',
+                'salary_to' => 'required|numeric',
+                'currency' => 'numeric',
+                'salary_period' => 'numeric',
+                'career_level' => 'numeric',
+                'shift' => 'numeric',
+                'tag' => 'numeric',
+                'degree_level' => 'numeric',
+                'functional_area' => 'integer',
+                'position' => 'numeric',
+                'experience' => 'numeric',
+                'description' => 'string',
+                'Recruiter_name' => 'string',
+                'Recruiter_email' => 'string',
+                'vacancy'=>'numeric',
+            ]);
+
+            if ($validator->fails()) {
+                return $this->generateResponseObj(
+                    'error',
+                    Response::HTTP_BAD_REQUEST,
+                    $validator->errors()->first()
+                );
+            }
+            $job = Job::create($validator->validated());
+            $users = Candidate::where('candidates.functional_area', '=', $job->functional_area)
+                ->select('candidates.*')
+                ->orderBy('id', 'desc')
+                ->get();
+            Notification::send($users, new jobnotification($job));
+            return $this->generateResponseObj(
+                'success',
+                Response::HTTP_CREATED,
+                'Job created successfully',
+                ['job' => $job]
+            );
+        }, $request);
+        return response()->json($resObj, $resObj['code']);
+    }
+  
+    public function getAllJobs(Request $request)
+    {
+        $page_size = $request->page_size ?? 5;
+        $candidate_id = auth('api-candidates')->id();
+            $jobs = Job::orderBy('created_at', 'desc')
+            ->where('expiry_date','>',carbon::now())
+            ->select(
+                'jobs.*',
+            )->paginate($page_size);
+            if($candidate_id !== null){
+                foreach ($jobs as $job) {
+                    $data = Bookmarks::where('job_id',$job['id'])->where('candidate_id',$candidate_id)->get()->toArray();
+                    $bookmarkJob1 = (bool) $data;
+                    $job['isbookmarkJob'] = $bookmarkJob1;  
+                }
+            }           
+        return JobResource::collection($jobs);
+    }
+  
+    public function getJobDetails(Request $request, $job_id)
+    {
+        $resObj = (new CommonController)->exceptionHandler(function ($job_id) {
+            $job = Job::where('jobs.id', $job_id)
+                ->select(
+                    'jobs.*'
+                )->get()->toArray();
+            if (!$job) {
+                return (new CommonController)->generateResponseObj(
+                    'error',
+                    Response::HTTP_NOT_FOUND,
+                    'Job details not found'
+                );
+            }
+            return (new CommonController)->generateResponseObj(
+                'success',
+                Response::HTTP_OK,
+                'Job details found',
+                ['job' => $job]
+            );
+        }, $job_id);
+        return response()->json($resObj, $resObj['code']);
+    }
+  
+    public function editJob(Request $request, $job_id)
+    {
+        $resObj = (new CommonController)->exceptionHandler(function ($request, $job_id) {
+            $validator = Validator::make($request->all(), [
+                'title' => 'string',
+                'type' => 'integer',
+                'category' => 'integer',
+                'skill' => 'array',
+                'gender' => 'in:0,1,2',
+                'salary_from' => 'numeric',
+                'salary_to' => 'numeric',
+                'currency' => 'numeric',
+                'salary_period' => 'numeric',
+                'country' => 'numeric',
+                'state' => 'numeric',
+                'city' => 'numeric',
+                'career_level' => 'numeric',
+                'shift' => 'numeric',
+                'degree_level' => 'numeric',
+                'functional_area' => 'integer',
+                'position' => 'numeric',
+                'experience' => 'numeric',
+                'description' => 'string',
+                'Recruiter_name' => 'string',
+                'Recruiter_email' => 'string',
+                'vacancy'=>'numeric',
+            ]);
+            if ($validator->fails()) {
+                return $this->generateResponseObj(
+                    'error',
+                    Response::HTTP_NOT_ACCEPTABLE,
+                    $validator->errors()->first()
+                );
+            }
+            $job = Job::findOrFail($job_id);
+
+            $job->title = $request->title ? $request->title : $job->title;
+            $job->type = $request->type ? $request->type : $job->type;
+            $job->category = $request->category ? $request->category : $job->category;
+            $job->skill = $request->skill ? $request->skill : $job->skill;
+            $job->gender = is_null($request->gender) ? $job->gender : $request->gender;
+            $job->expiry_date = $request->expiry_date ? $request->expiry_date : $job->expiry_date;
+            $job->salary_from = $request->salary_from ? $request->salary_from : $job->salary_from;
+            $job->salary_to = $request->salary_to ? $request->salary_to : $job->salary_to;
+            $job->currency = $request->currency ? $request->currency : $job->currency;
+            $job->salary_period = $request->salary_period ? $request->salary_period : $job->salary_period;
+            $job->country = $request->country ? $request->country : $job->country;
+            $job->state = $request->state ? $request->state : $job->state;
+            $job->city = $request->city ? $request->city : $job->city;
+            $job->career_level = $request->career_level ? $request->career_level : $job->career_level;
+            $job->shift = $request->shift ? $request->shift : $job->shift;
+            $job->tag = $request->tag ? $request->tag : $job->tag;
+            $job->degree_level = $request->degree_level ? $request->degree_level : $job->degree_level;
+            $job->functional_area = $request->functional_area ? $request->functional_area : $job->functional_area;
+            $job->position = $request->position ? $request->position : $job->position;
+            $job->experience = $request->experience ? $request->experience : $job->experience;
+            $job->description = $request->description ? $request->description : $job->description;
+            $job->Recruiter_name = $request->Recruiter_name ? $request->Recruiter_name : $job->Recruiter_name;
+            $job->Recruiter_email = $request->Recruiter_email ? $request->Recruiter_email : $job->Recruiter_email;
+            $job->vacancy = $request->vacancy ? $request->vacancy : $job->vacancy;
+
+            $job->save();
+
+            return $this->generateResponseObj(
+                'success',
+                 Response::HTTP_OK,
+                  'job Profile Detail updated!!'
+            );
+        }, $request, $job_id);
+        return response()->json($resObj, $resObj['code']);
+    }</code>
+</pre>
+          </section>
+          <hr class="divider" />
+
+
+          <!-- Source & Creadits
+		        ============================ -->
+
+          <section id="Source_Creadits">
+            <h2>Source &amp; Credits</h2>
+            <h4>Main</h4>
+            <ul>
+              <li>MySQL - <a target="_blank" href="https://www.mysql.com/">https://www.mysql.com/</a></li>
+              <li>Laravel - <a target="_blank" href="https://laravel.com/">https://laravel.com/</a></li>
+              <li>ReactJS - <a target="_blank" href="https://reactjs.org">https://reactjs.org</a></li>
+              <li>React Redux - <a target="_blank" href="https://react-redux.js.org/">https://react-redux.js.org/</a>
+              </li>
+            </ul>
+            <h4>Other</h4>
+            <ul>
+              <li>VSCode Editor - <a target="_blank" class="vscode"
+                  href="https://code.visualstudio.com">https://code.visualstudio.com</a></li>
+              <li>Icons Font Face - <a target="_blank" class="react-icons"
+                  href="https://fontawesome.com/">https://fontawesome.com/</a>
+              </li>
+            </ul>
+            <h4>Minor</h4>
+            <ul>
+              <li>Axios - <a target="_blank" class="date-fns"
+                  href="https://github.com/date-fns/date-fns/blob/master/README.md">https://github.com/axios/axios/blob/main/README.md</a>
+              </li>
+              <li>Date Fns - <a target="_blank" class="date-fns"
+                  href="https://github.com/date-fns/date-fns/blob/master/README.md">https://github.com/date-fns/date-fns/blob/master/README.md</a>
+              </li>
+              <li>Redux toolkit - <a target="_blank" class="redux-toolkit"
+                  href="https://github.com/reduxjs/redux-toolkit/blob/master/packages/toolkit/README.md">https://github.com/reduxjs/redux-toolkit/blob/master/packages/toolkit/README.md</a>
+              </li>
+            </ul>
+          </section>
+          <hr class="divider" />
+
+          <!-- Support
+		        ============================ -->
+          <section id="Support">
+            <h2>Support</h2>
+            <p>If this documentation doesn't answer your questions, So, Please send us Email via
+              <a id="mail-help-href" class="mail-help-href" target="_blank"
+                href="mailto:dotnetexpert27@gmail.com">dotnetexpert27@gmail.com</a>
+            </p>
+            <p>We answer all questions within 12-24 hours in weekdays. In some rare cases the waiting time can be to 48
+              hours. (except holiday seasons which might take longer).</p>
+
+          </section>
+          <hr class="divider" />
+
+
+          <!-- Changelog
+		        ============================ -->
+          <section id="Changelog">
+            <h2>Changelog</h2>
+          </section>
+          <section id="changelog1">
+            <p class="text-4">See what's new added, changed, fixed, improved or updated in the latest versions. </p>
+
+            <h3 id="v1-0">Version 1.0 <small class="text-muted">(10 November, 2022)</small></h3>
+            <p>Initial Release</p>
+          </section>
+          <hr class="divider" />
+
+
+
+          <!-- Backend
+		        ============================ -->
+          <div class="d-flex flex-column align-items-center">
+            <div class="justify-content-center">created: 29 June,2022</div>
+            <div class="justify-content-center">
+              latest update: 10 November,2022
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer
+    ============================ -->
+    <footer id="footer" class="section bg-dark footer-text-light">
+      <div class="container">
+        <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3"></ul>
+      </div>
+    </footer>
+    <!-- Footer end -->
+  </div>
+  <!-- Document Wrapper end -->
+
+  <!-- Back To Top -->
+  <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+      class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript
+============================ -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Highlight JS -->
+  <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+  <!-- Easing -->
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom Script -->
+  <script src="assets/js/theme.js"></script>
+
+  <script>
+    const mailHelpHref = "mailto:dotnetexpert24@gmail.com";
+    const webadminsiteHref = "http://localhost:3000/login";
+    const webMembersiteHref = "http://localhost:3000/login";
+
+    function update(className, property, value) {
+      Array.from(document.getElementsByClassName(className)).forEach(
+        (elem) => (elem[property] = value)
+      );
+    }
+
+    function updateIDAttribute(idName, property, value) {
+      document.getElementById(idName).attributes(property, value);
+    }
+
+    function updateIDInnerText(idName, value) {
+      document.getElementById(idName).innerText = value;
+    }
+
+
+    update("webadminsite-href", "href", webadminsiteHref);
+    update("webmembersite-href", "href", webMembersiteHref);
+    update("mail-help-href", "href", mailHelpHref);
+
+    updateIDInnerText("mail-help-href", "dotnetexpert27@gmail.com");
+  </script>
+</body>
+
+</html>
